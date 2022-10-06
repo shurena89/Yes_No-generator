@@ -1,4 +1,3 @@
-/*$background: linear-gradient(to bottom, #2c2cc9, #8f2cba, #c03ead, #df5da3, #f280a2, #fb949d, #feaa9e, #ffbfa6, #ffcda2, #ffdc9f, #ffeda0, #fdffa6); */
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 * {
@@ -8,7 +7,6 @@
   scroll-behavior: smooth;
 }
 
-/*$background: linear-gradient(to bottom, #2c2cc9, #8f2cba, #c03ead, #df5da3, #f280a2, #fb949d, #feaa9e, #ffbfa6, #ffcda2, #ffdc9f, #ffeda0, #fdffa6); */
 .body {
   background-color: pink;
 }
@@ -42,4 +40,8 @@
   padding: 15px auto;
   margin: 3rem auto;
   border-color: #c15952;
+}
+
+.pic_size {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
