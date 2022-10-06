@@ -1,0 +1,39 @@
+@import './resets';
+@import './variables';
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+.body {
+    background-color: pink;
+}
+.container {
+    margin: 3rem auto;
+    h1{
+        font-family: $header;
+        color: $yellow;
+        font-size: 5em;
+    }
+    h2{
+        font-family: $text;
+        color: $brown;
+        font-size: 1.5em;
+        font-style: italic;
+    }
+    p {
+        font-family: $text;
+        color: $blue;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    button {
+        display: flex;
+        background-color: $btn;
+        font-weight: 600;
+        color: $brown;
+        font-size: 1.5rem;
+        padding: 15px auto;
+        margin: 3rem auto;
+        border-color: $brown;
+    }
+}

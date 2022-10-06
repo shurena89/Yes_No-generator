@@ -1,0 +1,45 @@
+/*$background: linear-gradient(to bottom, #2c2cc9, #8f2cba, #c03ead, #df5da3, #f280a2, #fb949d, #feaa9e, #ffbfa6, #ffcda2, #ffdc9f, #ffeda0, #fdffa6); */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*$background: linear-gradient(to bottom, #2c2cc9, #8f2cba, #c03ead, #df5da3, #f280a2, #fb949d, #feaa9e, #ffbfa6, #ffcda2, #ffdc9f, #ffeda0, #fdffa6); */
+.body {
+  background-color: pink;
+}
+
+.container {
+  margin: 3rem auto;
+}
+.container h1 {
+  font-family: "Pacifico", cursive;
+  color: #fdffa6;
+  font-size: 5em;
+}
+.container h2 {
+  font-family: "Lora", serif;
+  color: #c15952;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.container p {
+  font-family: "Lora", serif;
+  color: #607bbf;
+  font-size: 18px;
+  font-weight: 600;
+}
+.container button {
+  display: flex;
+  background-color: #cadeff;
+  font-weight: 600;
+  color: #c15952;
+  font-size: 1.5rem;
+  padding: 15px auto;
+  margin: 3rem auto;
+  border-color: #c15952;
+}/*# sourceMappingURL=style.css.map */
